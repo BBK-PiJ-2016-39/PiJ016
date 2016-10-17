@@ -1,0 +1,20 @@
+println("Please enter a number:");
+int num = readInt();
+println("You entered " + num + ".");
+
+int squared = square(num);
+println(squared);
+
+Person person1 = new Person();
+person1.talk();
+
+
+int square(int number) {
+	return number * number;
+	}
+	
+class Person {
+	void talk() {
+		println("Hello!");
+		}
+	}
